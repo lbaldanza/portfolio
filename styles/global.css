@@ -1,0 +1,36 @@
+:root{
+    --backgound-color: #ffffff; 
+    --hero-color: #48788A;
+    --subtitle-color: #176885;
+    --headline-color: #0F4C81;
+    --body-color: #41688A;
+    --highlight-color: #1F96FF;
+    --line-color: #c5c1c1;  
+}
+
+
+body {
+    margin: 0;
+    background-color: var(--backgound-color);
+    color: var(--body-color);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ h1, h2, h3, h5, h6 {
+    font-family: 'Balsamiq Sans', cursive;
+    color: var(--headline-color);
+    margin: 0;
+    font-size: 32px;
+}
+ h4, h5, h6{
+    color: var(--subtitle-color);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
