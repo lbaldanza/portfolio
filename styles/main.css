@@ -77,11 +77,21 @@ margin: 16px;
 .section-content{
     align-self: center;
 }
+.experience-content{
+    text-align: justify;
+}
+.experience{
+    margin: 0 16px;
+}
+
+.about-me div p{
+    margin-top: 0;
+    margin-bottom: 16px;
+}
 
 @media only screen and (max-width: 500px) {
     .about-me{
         grid-template-columns: 1fr;
-        grid-template-rows: 200px auto 1fr;
         grid-row-gap: 16px;
         margin: 16px;
     }
@@ -107,5 +117,9 @@ margin: 16px;
     .main-content {
       margin-right: 16px;
       margin-left: 16px;
+    }
+    .section-content{
+        margin-right: 16px;
+        margin-left: 16px;
     }
   }

@@ -31,6 +31,10 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+p{
+    hyphens: auto;
+}
 
-
-
+a {
+    color: var(--highlight-color);
+}
