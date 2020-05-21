@@ -74,6 +74,9 @@ margin: 16px;
     grid-column-gap: 16px;
     margin: 16px 0;
 }
+.section-content{
+    align-self: center;
+}
 
 @media only screen and (max-width: 500px) {
     .about-me{
