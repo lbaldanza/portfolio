@@ -3,8 +3,6 @@
     display: flex;
     justify-content: center;
     margin: 0;
-    grid-row-start: 1;
-    grid-row-end: 4;
 }
 .avatar img{
     border-radius: 50%;
@@ -73,7 +71,6 @@ margin: 16px;
 .about-me{
     display: grid;
     grid-template-columns: 200px auto;
-    grid-template-rows: auto 1fr 39px;
     grid-column-gap: 16px;
     margin: 16px 0;
 }
@@ -100,10 +97,12 @@ margin: 16px;
         grid-row-start: unset;
     }
 
+
 }
 
 @media only screen and (max-width: 816px) and (min-width: 500px) {
     .main-content {
       margin-right: 16px;
+      margin-left: 16px;
     }
   }
