@@ -1,6 +1,5 @@
 header{
     padding: 8px;
-    border-bottom: 1px solid var(--body-color);
     background-color: var(--backgound-color);
     align-items: center;
     display: flex;
@@ -21,10 +20,4 @@ header{
     font-family: 'Pacifico', cursive;
     font-weight: 400;
 
-}
-header div{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
